@@ -1,23 +1,18 @@
 ## 项目描述
 
-大屏可视化 Vue3+vite版本，
+大屏可视化 Vue3+vite版本
 
-#### 样式
+#### 部分介绍
 
-进行微调，整体看着更加美观
-
-
-
-- 项目需要全屏展示（按 F11）。
+- 项目需要全屏展示（按 F11），有可自适应按钮切换操作。
 
 - 项目部分区域使用了全局注册方式，增加了打包体积，在实际运用中请使用 **按需引入**。
 
-- 项目环境：Vite、Echarts、Npm、Node，axios,mock,vue3。
-
-- 请拉取 master 分支的代码，其余分支是开发分支。
+- 项目环境：Vite + Vue3,Echarts,Npm,Node,axios,mock。
 
 - 在项目public目录下存放地图数据合集，根据地市编存放。
 
+- 本机项目 node -v 19.9.0
 
 ### 采用自适应组件方式，
 
@@ -56,6 +51,12 @@ npm install
 
 ```npm
 npm run dev
+```
+
+### 打包编译
+
+```npm
+npm run build
 ```
 
 ### 取消mock模拟数据
@@ -124,9 +125,9 @@ export default {
 
 ```vue
 <ItemWrap
-    title="我是title"
+    title="my title"
     >
-       <div>我是谁？</div>
+       <div>who?</div>
 </ItemWrap>
 ```
 
